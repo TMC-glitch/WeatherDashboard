@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body> 
+    <div class="container">
+      <div class="current-info">
+        <h2>Allow Location for Current Forecast</h2>
+      <div class="others" id="current-weather-items">
+        <div class="weather-item">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="future-forecast">
+      <div class="today" id="current-temp">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+        alt="weather icon" class="w-icon">
+        <div class="other">
+        <div class="day"></div>
+        <div class="temp"></div>
+        <div class="temp"></div>
+      </div>
+      </div>
+    <div class="weather-forecast" id="weather-forecast">
+      <div class="weather-forecast-item"></div>
+      <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+      </div>
+    </div>
+      </main>
+      <div class="app-wrap">
+        <header>
+          <input
+            type="text"
+            autocomplete="off"
+            class="search-box"
+            placeholder="Search for a city..."
+          />
+        </header>
+        <main>
+          <section class="location">
+            <div class="city"></div>
+            <div class="date"></div>
+          </section>
+          <div class="current">
+            <div class="temp"><span>Weather Dashboard</span></div>
+            <div class="weather"></div>
+            <div class="hi-low"></div>
+          </div>
+        </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
