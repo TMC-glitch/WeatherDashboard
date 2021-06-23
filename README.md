@@ -23,8 +23,8 @@ I am presented with the city name, the date, an icon representation of weather c
 [OpenWeather API](https://openweathermap.org/api)
 
 ### Screenshots
-![Weather Shot](/Images/Screenshot1.png)
-![Weather Shot](/Images/Screenshot2.png)
+![Weather Shot](/Images/screenshot1.png)
+![Weather Shot](/Images/screenshot2.png)
 
 
 Link to Active Page: https://tmc-glitch.github.io/WeatherDashboard/
